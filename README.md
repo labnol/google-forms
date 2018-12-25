@@ -21,7 +21,7 @@ Open the Google Form in edit mode, go to the Script editor and paste the code. C
 
 # 3. Google Forms PDF Generator
 
-Use Google Apps Script to generate PDF documents from Google Forms responses. You can configure the script to automatically email the generated PDF as a file attachment via the Gmail service. The Google Docs template should include placeholders enclosed inside double angle bracket like *<<First Name>>* and these should match the question titles in the Google Form.
+Use Google Apps Script to generate PDF documents from Google Forms responses. You can configure the script to automatically email the generated PDF as a file attachment via the Gmail service. The Google Docs template should include placeholders enclosed inside double angle brackets like *`<<First Name>>`* and these should match the question titles in the Google Form.
 
 Open the Google Spreadsheet associated with the Google Form, go to the Script editor and paste the code. Choose Run > Initialize to setup the form submit trigger.
 
