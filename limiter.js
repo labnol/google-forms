@@ -5,8 +5,8 @@
  * 
  *  Set response limits for Google Forms and close form automatically.
  * 
- *  language: Google Apps Script
  *  license: MIT
+ *  language: Google Apps Script
  *  author: Amit Agarwal
  *  email: amit@labnol.org
  *  web: https://digitalinspiration.com/
@@ -14,12 +14,16 @@
  */
 
 
-// Set the form’s open and close dates in lines #1 & #2 in  YYYY-MM-DD HH:MM format. If you would rather not have an open or close date, just set the corresponding value to blank.
+/* Set the form’s open and close dates in YYYY-MM-DD HH:MM format. 
+If you would rather not have an open or close date, 
+just set the corresponding value to blank. */
 
 FORM_OPEN_DATE = "2019-01-01 08:00";
 FORM_CLOSE_DATE = "2019-12-25 23:30";
 
-// Set the RESPONSE_COUNT equal to the total number of entries that you would like to receive after which the form is closed automatically. If you would not like to set a limit, set this value to blank.
+/* Set the RESPONSE_COUNT equal to the total number of entries 
+that you would like to receive after which the form is closed automatically. 
+If you would not like to set a limit, set this value to blank. */
 
 RESPONSE_COUNT = "100";
 
